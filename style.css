@@ -1,0 +1,205 @@
+/* global */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* main */
+main {
+  overflow: hidden;
+}
+/* navbar */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list {
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.nav-list > a {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.brand-logo {
+  display: inline-block;
+  width: 120px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-menu {
+  color: white;
+}
+/* smartphone */
+#smartPhone {
+  position: relative;
+  display: block;
+  margin-top: 60px;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+}
+
+.smartPhone-article {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.smartPhone-name {
+  margin-bottom: 20px;
+}
+
+.smartPhone-article > .smartPhone-description {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.smartPhone-article > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.smartPhone-container {
+  width: 1920px;
+  height: auto;
+}
+
+/* tablet */
+#tablet {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(243, 243, 243);
+}
+
+.tablet-container > img {
+  width: 1920px;
+  height: 100vh;
+}
+
+.tablet-article {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.tablet-article > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.tablet-description {
+  font-size: 30px;
+}
+
+/* Watch */
+#watch {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.watch-article {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#watch > img {
+  float: right;
+  width: 100%;
+}
+
+.watch-article > h2 {
+  width: 400px;
+}
+
+.watch-article > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* Notebook */
+#notebook {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#notebook > img {
+  float: right;
+  width: 100%;
+}
+
+.notebook-article {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.notebook-article > h2 {
+  width: 800px;
+}
+
+.notebook-article > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.mail {
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.mail > a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
